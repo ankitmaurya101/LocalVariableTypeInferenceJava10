@@ -23,7 +23,7 @@ and hence             var b = "Ankit";
                       var e = new ArrayList<String>();
   All are correct and JAVA 10 will itself infer the dataType of variable.
   
-#Where it can be used
+# Where it can be used
   It can be used inside any block in java with the condition that it should be initialized immediately.
   
   1. It can be used in static and non-static block.
@@ -31,7 +31,7 @@ and hence             var b = "Ankit";
   3. It can be used in any method.
   4. It can be used inside switch, for, if, else and all such blocks.
 
-#Where it can not be used
+# Where it can not be used
 
 1. We cannot declare field variables with var keyword.
 2. Method or constructor parameters cannot be var as they can not be initialized immediately.
@@ -39,7 +39,7 @@ and hence             var b = "Ankit";
 4. An array cannot use var as there is no way to infer the dataType,
    a user may give more than one type of data while initializing itself.
 
-For complete information about var please click the link [a link](http://openjdk.java.net/jeps/286)
+For complete information about var please click the link [JEP-286](http://openjdk.java.net/jeps/286)
 
 For more understanding download, compile and run the TestVar.java file on cmd or terminal using Java 10.
 
